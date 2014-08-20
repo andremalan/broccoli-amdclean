@@ -1,7 +1,22 @@
 broccoli-amdclean
 =================
 
-Broccoli compiler to convert AMD modules to regular javaScript
+Broccoli filter to convert AMD modules to regular javaScript
+
+Install:
+```sh
+npm install --save broccoli-amdclean
+```
+
+## Usage
+
+```js
+var amdclean = require('broccoli-amdclean');
+tree = amdclean(tree);
+```
 
 
-Still very much WIP
+
+
+
+More options coming soon...

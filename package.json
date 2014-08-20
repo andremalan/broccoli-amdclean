@@ -1,0 +1,19 @@
+{
+  "name": "broccoli-amdclean",
+  "version": "0.0.1",
+  "description": "Broccoli filter to convert AMD modules to regular JavaScript",
+  "main": "index.js",
+  "author": "Andre Malan",
+  "license": "MIT",
+  "keywords": [
+    "broccoli-plugin",
+    "javascript",
+    "module",
+    "amd",
+    "commonjs"
+  ],
+  "dependencies": {
+    "broccoli-filter" : "^0.1.6",
+    "amdclean": "~2.2.4"
+  }
+}
